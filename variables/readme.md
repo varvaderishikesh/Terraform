@@ -1,6 +1,6 @@
-### A simple Terraform configuration file to exectue a Count Index
+### A simple Terraform configuration file to exectue variables
 
-
+Variables are central source from which we can import values to our resources
 
 ### variables.tf
 ```sh
