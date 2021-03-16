@@ -6,8 +6,8 @@ Count Index can be used to modify the configuration of each resource inside the 
 ```sh
 provider "aws" {
   region = "us-west-2"
-  access_key = "AKIAQHCMSV4J2HSGCGSC"
-  secret_key = "FMD6soxoGAvkyDr1d/ykVggNIeDyNkOLKkJknZiW"
+  access_key = "YOUR-ACCESS-KEY"
+  secret_key = "YOUR-SECRET-KEY"
 }
 
 variable "elb_names" {
