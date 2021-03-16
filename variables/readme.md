@@ -6,8 +6,8 @@ Variables are central source from which we can import values to our resources
 ```sh
 provider "aws" {
   region = "us-east-1"
-  access_key = ""
-  secret_key = ""
+  access_key = "YOUR-ACCESS-KEY"
+  secret_key = "YOUR-SECRET-KEY"
 }
 
 resource "aws_security_group" "var_demo" {
